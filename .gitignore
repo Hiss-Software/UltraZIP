@@ -1,0 +1,68 @@
+# Build directories
+build/
+build-*/
+out/
+cmake-build-*/
+
+# CMake / Ninja artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CMakeUserPresets.json
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+_deps/
+
+# Binaries and libraries
+uzip
+uzip.exe
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.pch
+*.gch
+*.gcda
+*.gcno
+
+# IDE and OS junk
+.vs/
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.ipch
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test archives and temp files
+*.uzip
+*.tmp
+test_archive*
+
+# Editor temp files
+*~
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
